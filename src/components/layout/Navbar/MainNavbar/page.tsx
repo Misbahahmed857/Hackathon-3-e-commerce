@@ -8,7 +8,7 @@ import Image from "next/image";
 import InputGroup from "@/components/ui/input-group";
 import ResTopNavbar from "./OtherTopNavbar"; // Importing ResTopNavbar
 import CartBtn from "./ButtonCard";
-import { createClient } from "@sanity/client";
+import  createClient  from "@sanity/client";
 import { FiSearch } from "react-icons/fi";
 
 // Initialize Sanity Client
